@@ -259,31 +259,3 @@ if __name__ == "__main__":
             googleid = (getgoogledata(user_input))
             getyelpdata(googleid)
             conn.commit()
-
-
-
-
-
-
-
-
-        #getdistance(googleid)
-        #getprice(googleid)
-        # category(googleid)
-        # groupedbar(googleid)
-
-
-
-
-
-
-
-
-
-
-
-
-#for x in (location["results"]):
-
-
-#name, rating, formatted_address
