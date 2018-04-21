@@ -18,18 +18,9 @@ import secretsproj
 import plotly
 plotly.tools.set_credentials_file(username= secretsproj.plotlyuser, api_key= secretsproj.plotlyapi)
 
-user types in zip code and if zip code is valid then they are prompted to enter another zip code or choose a visualization.
-They choose from 4 different presentations that represent different distributions of price and rating and distance in the area.
 
 
-The class definition
+I set up the cache in the beginning. The class defines all the variables that I am getting like the address, name, distance, rating, and price. Since not all variables on Yelp have a price. I made a try/except so my program runs. I also have a getyelpdata function that gets all the yelp data for the restaurants near an entered zip code. I have getgoogledata function that gets all the google data for the restaurants near an entered zip code.
 
-getyelpdata gets data from yelp
-
-getgoogledata
-
-
-
-
-Brief description of how your code is structured, including the names of significant data processing functions (just the 2-3 most important functions--not a complete list) and class definitions. If there are large data structures (e.g., lists, dictionaries) that you create to organize your data for presentation, briefly describe them.
-Brief user guide, including how to run the program and how to choose presentation options.
+The user types in zip code and if zip code is valid then they are prompted to enter another zip code or choose a visualization.
+They choose from 4 different presentations that represent different distributions of price and rating and distance in the area. They press either 1 or 2 or 3 or 4 to choose a visualization. 
